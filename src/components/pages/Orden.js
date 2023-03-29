@@ -4,10 +4,10 @@ import { useCar } from "../../hook/useCar";
 import { useLocation } from "react-router-dom";
 const Orden = ({item,dispatch}) => {
     let  dataBebidas=[
-        {id:1, name: 'Coca Cola 1.5 L', price: 9.50,count:0},
+        {id:1, name: 'Coca Cola 1.5 L', price: 9.20,count:0},
         {id:2, name: 'Coca Cola 1.5 L Zero', price: 9.00,count:0},
         {id:3, name: 'Inca Koca Cola 1.5 L Zero', price: 9.00,count:0},
-        {id:4, name: 'Inca Kola 1.5 L', price: 9.50,count:0}, 
+        {id:4, name: 'Inca Kola 1.5 L', price: 9.30,count:0}, 
 
     ]
     
