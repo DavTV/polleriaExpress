@@ -1,0 +1,44 @@
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar{
+    position: fixed !important;
+    /* z-index: 10000 !important; */
+    display: flex !important;
+    align-items: flex-start !important;
+    top: 75px !important;
+    right: 0 !important;
+    left: 100% !important;
+    transition: all 0.5s ease-in-out !important;
+    bottom: 0 !important;
+}
+nav ul{
+    list-style: none;    
+    padding: 0;
+}
+.icon{
+    cursor: pointer;
+
+}
+.logo{
+    width: 50px;
+    height: 60px;
+}
+.open{
+    left: 30% !important;
+}
+.active{
+    color: black;
+}
+.text-navbar{
+    font-size: 20px;
+}
+@media (min-width:700px) {
+    .open{
+        left: 70% !important;
+        /* z-index: 100 !important; */
+        /* z-index: 100000; */
+    }
+}

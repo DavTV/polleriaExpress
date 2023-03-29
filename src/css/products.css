@@ -1,0 +1,24 @@
+.products{
+    max-width: 1200px;
+    margin: auto !important;
+    /* border: 21px solid; */
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.card{
+    /* box-shadow: 0 0 5px 5px red; */
+
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    /* transform: scale(
+     0.9  
+    ); */
+    box-shadow: 0 0 5px 5px #FF4136 !important;
+     /* position: absolute; 
+     z-index: 10000;  */
+}
+/* .text-end{
+    text-align: end !important;
+} */

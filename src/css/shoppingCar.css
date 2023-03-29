@@ -1,0 +1,28 @@
+.shoppingCar{
+    position:fixed;
+    right:-150%;
+    top:0;
+    /* min-width: 200px; */
+    /* bottom:0; */
+    height:100vh;
+    overflow-y: scroll;
+    transition: all .5s ease-in-out;
+}
+.openCar{
+    right:0 !important;
+}
+/* @media (min-width:900px) {
+    .openCar{
+        left: 40% !important;
+      
+    }
+} */
+.imgCar{
+    max-width:100px;
+}
+/* .thMax{
+    border:1px solid black !important;
+} */
+.chefCarrito{
+    width: 200px;
+}

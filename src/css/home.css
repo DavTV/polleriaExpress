@@ -1,0 +1,20 @@
+.contenedorPortada{
+    height: 60vh;
+    /* overflow-x: hidden; */
+}
+@media (min-width:700px) {
+    
+    .imgPortada{
+        content: url("../img/portadaPollo.jpg");
+        object-fit: cover;
+    }
+}
+.cortina{
+    background-color: rgba(0, 0, 10, .4);
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    /* z-index: 100; */
+}
